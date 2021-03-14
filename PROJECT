@@ -1,3 +1,7 @@
 domain: linkinghack.com
 repo: github.com/linkinghack/kubebuilder-cronjob
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
 version: "2"
